@@ -1,8 +1,8 @@
-package Week05;
+package Week05.String;
 import java.util.Scanner;
 
 
-public class MergeWord {
+public class MergeThem {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String word1 = scan.next();

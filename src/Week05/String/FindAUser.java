@@ -1,7 +1,7 @@
-package Week05;
+package Week05.String;
 import java.util.Scanner;
 
-public class FindUser {
+public class FindAUser {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         //WRITE YOUR CODE HERE
