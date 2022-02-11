@@ -10,6 +10,7 @@ public class TernaryOperator1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter number:");
         int x = scan.nextInt();
+        scan.close();
         //WRITE YOUT CODE HERE:
 
         x = x >= 5 ? x : -x;

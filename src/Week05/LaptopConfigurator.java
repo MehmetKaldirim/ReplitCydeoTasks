@@ -49,7 +49,7 @@ public class LaptopConfigurator {
                 scrResolution.equals("4K") ? 200 : 0;
 
         System.out.println("Laptop price is: $" + price);
-
+        sc.close();
 
     }
 }

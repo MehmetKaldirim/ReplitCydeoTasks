@@ -8,6 +8,7 @@ public class PrintFirstLastCharacter {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a word");
         String word = scan.next();
+        scan.close();
         //WRITE YOUR CODE HERE:
         System.out.println("first char: " + word.charAt(0));
         System.out.println("first char: " + word.charAt(word.length()-1));

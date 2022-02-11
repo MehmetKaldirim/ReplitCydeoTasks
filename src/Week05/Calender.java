@@ -7,6 +7,7 @@ public class Calender {
         Scanner scan = new Scanner (System.in);
         System.out.println("Enter month number:");
         int monthNum = scan.nextInt();
+        scan.close();
 
         //WRITE YOUR CODE HERE:
         boolean boundaryCheck = monthNum >= 1 && monthNum <= 12;

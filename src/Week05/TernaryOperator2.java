@@ -9,6 +9,7 @@ public class TernaryOperator2 {
         int num1 = scan.nextInt();
         System.out.println("Enter number2:");
         int num2 = scan.nextInt();
+        scan.close();
 
         //WRITE YOUR CODE HERE:
 

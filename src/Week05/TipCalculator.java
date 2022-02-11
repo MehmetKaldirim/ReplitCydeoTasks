@@ -13,6 +13,7 @@ public class TipCalculator {
         double price = sc.nextDouble();
         System.out.println("Service Quality:");
         String serQuality =sc.next();
+        sc.close();
         Double tip= 0.0;
         String pAnd="&";
         pAnd = pAnd.repeat(numberOfPerson);

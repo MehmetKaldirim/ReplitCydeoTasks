@@ -8,6 +8,7 @@ public class HTTPStatusCode {
         System.out.println("Enter status code:");
         Scanner scan = new Scanner(System.in);
         int status = scan.nextInt();
+        scan.close();
         String result = "";
         //WRITE YOUR CODE HERE:
 
