@@ -7,8 +7,9 @@ public class SwitchChar {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter command:");
         char response = scan.next().charAt(0);
+        scan.close();
         //WRITE YOUR CODE HERE
-        String message = "";
+        String message;
         switch (response){
             case 'y' :
                 message = "Your request is being processed ";

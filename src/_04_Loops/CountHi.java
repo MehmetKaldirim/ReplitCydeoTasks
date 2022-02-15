@@ -2,19 +2,18 @@ package _04_Loops;
 
 import java.util.Scanner;
 
-public class CatsAndDogs {
+public class CountHi {
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        int countOfCats;
-        int countOfDogs;
-        String word = scan.next();
-        scan.close();
 
-        countOfCats = countElement(word, "cat");
-        countOfDogs = countElement(word, "dog");
-        System.out.println(countOfCats == countOfDogs);
+        int countOfHi;
+        String word = scan.next();
+        String writeHi = scan.next();
+        scan.close();
+        countOfHi = countElement(word,writeHi);
+        System.out.println(countOfHi);
     }
 
 
@@ -30,21 +29,4 @@ public class CatsAndDogs {
         return counter;
     }
 }
-/*Print true if the string "cat" and "dog" appear the same number of times in the given string word.
-
-Example:
-
-input: catdog
-output: true
-input: catdog
-output: true
-Example:
-
-input: catcat
-output: false
-input: catcat
-output: false
-Example:
-
-input: cat-cheetah-dog-cat
-output: false*/
+//coun word hi or java  inside string
