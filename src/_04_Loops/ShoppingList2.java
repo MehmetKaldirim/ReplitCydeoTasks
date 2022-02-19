@@ -28,6 +28,7 @@ public class ShoppingList2 {
         report = report.substring(0, report.length() - 2);
         System.out.println(report);
         System.out.println("Total price: " + totalPrice);
+        scan.close();
     }
 }
 /*In this assignment, you will write a program that will generate a shopping list.

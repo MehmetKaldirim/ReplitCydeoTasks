@@ -9,7 +9,7 @@ public class countTriples {
         String str = scan.next();
         int count = 0;
         //WRITE YOUR CODE HERE
-
+        scan.close();
         for (int i = 0; i < str.length()-2; i++) {
 
 

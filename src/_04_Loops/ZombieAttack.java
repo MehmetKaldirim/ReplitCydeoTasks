@@ -7,7 +7,7 @@ public class ZombieAttack {
         Scanner scan = new Scanner(System.in);
         int inhabitants = scan.nextInt();
         int counter = 0;
-
+        scan.close();
         while (inhabitants != 0 && inhabitants >= 1 ){
             System.out.println("Day " + counter + " [" + inhabitants + "]");
             inhabitants /= 2;
