@@ -4,14 +4,14 @@ import java.util.*;
 public class CarInsuranceFirst {
     public static void main(String[] args) {
         //DO NOT CHANGE
-        double premium;
-        int zipCode;
-        int accidentsAmount;
-        int age;
-        int daysDrivenToWorkOrSchool;
-        int milesToWorkOrSchool;
-        String vehicleOwnership;
-        String vehicleUsage;
+        double premium = 0;
+        int zipCode=0;
+        int accidentsAmount = 0;
+        int age = 0;
+        int daysDrivenToWorkOrSchool = 0;
+        int milesToWorkOrSchool = 0;
+        String vehicleOwnership = "";
+        String vehicleUsage = "";
         String continuousInsurance = "";
         String education = "";
         String name = "";
